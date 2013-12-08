@@ -1,0 +1,34 @@
+//
+// Prefix header for all source files of the 'WhereIsMyCar' target in the 'WhereIsMyCar' project
+//
+
+#import <Availability.h>
+
+typedef void (^WCVoidBlock)(void);
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <MapKit/MapKit.h>
+    #import <iAd/iAd.h>
+
+    #import "UIColor+WCColor.h"
+    #import "UIFont+WCFont.h"
+    #import "UIImage+WCImage.h"
+    #import "UIButton+WCButton.h"
+#import "UINavigationController+WCAdditions.h"
+#import "NSNotificationCenter+WCAdditions.h"
+//    #import "NSNotificationCenter+MGAdditions.h"
+
+    #import "MMDrawerController.h"
+    #import "UIView+position.h"
+
+    #import "BlocksKit.h"
+    #import "WCUtils.h"
+#import "WCEnvironment.h"
+#endif
