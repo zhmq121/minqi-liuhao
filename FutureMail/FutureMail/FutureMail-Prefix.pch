@@ -1,0 +1,33 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+typedef void (^HMVoidBlock)(void);
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    // Core foundations
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+
+    // Categories
+    #import "UIButton+HMAdditions.h"
+    #import "UIColor+HMColor.h"
+    #import "UIFont+HMFont.h"
+    #import "UIImage+HMAdditions.h"
+    #import "UINavigationController+HMAdditions.h"
+
+    #import "HMEnvironment.h"
+    #import "HMUtils.h"
+
+    // From vendors
+    #import "UIView+position.h"
+#endif
