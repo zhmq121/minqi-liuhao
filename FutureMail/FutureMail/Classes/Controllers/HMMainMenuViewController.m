@@ -8,7 +8,7 @@
 
 #import "HMMainMenuViewController.h"
 #import "HMMainMenuView.h"
-
+#import "HMAppDelegate.h"
 @interface HMMainMenuViewController ()
 
 @property (strong, nonatomic) HMMainMenuView *menuView;
@@ -26,6 +26,8 @@
     
     return self;
 }
+
+
 
 - (void)viewDidLoad
 {

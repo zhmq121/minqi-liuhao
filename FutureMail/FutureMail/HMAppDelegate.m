@@ -24,6 +24,8 @@
     return (HMAppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Setup global theme.
@@ -79,6 +81,10 @@
     }
 }
 
+- (UINavigationController*) navigationItem {
+    return self.navigationController;
+}
+
 - (void)popToMenu
 {
     [self.navigationController popToRootViewControllerAnimated:YES];
@@ -91,11 +97,13 @@
     
     self.menuController = [[HMMainMenuViewController alloc] init];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.menuController];
+
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.interactivePopGestureRecognizer.enabled = NO;
     
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
 }
+
 
 @end

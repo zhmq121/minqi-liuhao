@@ -8,6 +8,11 @@
 
 #import "HMMainMenuView.h"
 #import "HMMainMenuButton.h"
+#import "HMMainMenuViewController.h"
+#import "HMMailComposeViewController.h"
+#import "HMAppDelegate.h"
+#import "ColorPickerViewController.h"
+#import "MQCollectionViewController.h"
 
 const CGFloat kMainMenuButtonsAreaHeight = 150;
 const CGFloat kMainMenuButtonPadding = 7;
@@ -20,7 +25,6 @@ const CGFloat kMainMenuButtonPadding = 7;
 @property (strong, nonatomic) HMMainMenuButton *mainMenuButton2;
 @property (strong, nonatomic) HMMainMenuButton *mainMenuButton3;
 @property (strong, nonatomic) HMMainMenuButton *mainMenuButton4;
-
 @end
 
 @implementation HMMainMenuView
@@ -52,10 +56,13 @@ const CGFloat kMainMenuButtonPadding = 7;
     CGSize menuButtonSize = CGSizeMake((self.buttonsAreaView.frameWidth - kMainMenuButtonPadding * 3) / 2, (self.buttonsAreaView.frameHeight - kMainMenuButtonPadding * 3) / 2);
     
     self.mainMenuButton1 = [[HMMainMenuButton alloc] initWithFrame:CGRectMake(kMainMenuButtonPadding, kMainMenuButtonPadding, menuButtonSize.width, menuButtonSize.height)];
-    self.mainMenuButton1.title = NSLocalizedString(@"Button 1", @"");
+    [self.mainMenuButton1 setupAsGreenButton];
+    self.mainMenuButton1.title = NSLocalizedString(@"Compose Mail", @"");
     self.mainMenuButton1.titleLabel.font = [UIFont ultraLightHMFontOfSize:24];
     self.mainMenuButton1.actionBlock = ^{
-        
+         MQCollectionViewController *ctrlr = [[MQCollectionViewController alloc] init];
+        [[HMAppDelegate appDelegate] pushViewController:ctrlr animated:YES];
+
         // Push the controller
         // Example:
 //        HMCurrentParkingViewController *ctrlr = [[WCCurrentParkingViewController alloc] init];
@@ -65,6 +72,7 @@ const CGFloat kMainMenuButtonPadding = 7;
     
     
     self.mainMenuButton2 = [[HMMainMenuButton alloc] initWithFrame:CGRectMake(menuButtonSize.width + kMainMenuButtonPadding * 2, kMainMenuButtonPadding, menuButtonSize.width, menuButtonSize.height)];
+    [self.mainMenuButton2 setupAsGreenButton];
     self.mainMenuButton2.title = NSLocalizedString(@"Button 2", @"");
     self.mainMenuButton2.titleLabel.font = [UIFont ultraLightHMFontOfSize:24];
     self.mainMenuButton2.actionBlock = ^{
@@ -77,6 +85,7 @@ const CGFloat kMainMenuButtonPadding = 7;
                                                                           menuButtonSize.height + kMainMenuButtonPadding * 2,
                                                                           menuButtonSize.width,
                                                                           menuButtonSize.height)];
+    [self.mainMenuButton3 setupAsGreenButton];
     self.mainMenuButton3.title = NSLocalizedString(@"Button 3", @"");
     self.mainMenuButton3.titleLabel.font = [UIFont ultraLightHMFontOfSize:24];
     self.mainMenuButton3.actionBlock = ^{
@@ -89,6 +98,7 @@ const CGFloat kMainMenuButtonPadding = 7;
                                                                              menuButtonSize.height + kMainMenuButtonPadding * 2,
                                                                              menuButtonSize.width,
                                                                              menuButtonSize.height)];
+    [self.mainMenuButton4 setupAsGreenButton];
     self.mainMenuButton4.title = @"Settings";
     self.mainMenuButton4.titleLabel.font = [UIFont ultraLightHMFontOfSize:24];
     self.mainMenuButton4.actionBlock = ^{
@@ -96,5 +106,7 @@ const CGFloat kMainMenuButtonPadding = 7;
     };
     [self.buttonsAreaView addSubview:self.mainMenuButton4];
 }
+
+
 
 @end

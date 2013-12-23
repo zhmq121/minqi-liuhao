@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A7E3748186F614700D08245 /* bar_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E3743186F614700D08245 /* bar_select.png */; };
+		3A7E3749186F614700D08245 /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E3744186F614700D08245 /* colormap.png */; };
+		3A7E374A186F614700D08245 /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E3745186F614700D08245 /* crosshair.png */; };
+		3A7E374B186F614700D08245 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E3746186F614700D08245 /* Default.png */; };
+		3A7E374C186F614700D08245 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E3747186F614700D08245 /* Icon.png */; };
+		3A7E375B186F61E000D08245 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E374F186F61E000D08245 /* ColorPickerView.m */; };
+		3A7E375C186F61E000D08245 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E3751186F61E000D08245 /* ColorPickerViewController.m */; };
+		3A7E375D186F61E000D08245 /* ColorSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E3753186F61E000D08245 /* ColorSwatchView.m */; };
+		3A7E375E186F61E000D08245 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E3756186F61E000D08245 /* GradientView.m */; };
+		3A7E375F186F61E000D08245 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E3758186F61E000D08245 /* UIColor-Expanded.m */; };
+		3A7E3760186F61E000D08245 /* UIColor-HSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E375A186F61E000D08245 /* UIColor-HSVAdditions.m */; };
+		3A7E3762186F632C00D08245 /* ColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E3761186F632C00D08245 /* ColorPickerViewController.xib */; };
+		3A7E376F18710E6A00D08245 /* painter_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E376E18710E6A00D08245 /* painter_button.jpg */; };
+		3A7E377118710E7600D08245 /* send_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E377018710E7600D08245 /* send_button.jpg */; };
+		3A7E377418711FDE00D08245 /* HMImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E377318711FDE00D08245 /* HMImagePickerViewController.m */; };
+		3A7E377B1871209900D08245 /* MQCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E37761871209900D08245 /* MQCollectionViewController.m */; };
+		3A7E377C1871209900D08245 /* MQImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E37781871209900D08245 /* MQImageCollectionView.m */; };
+		3A7E377D1871209900D08245 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E377A1871209900D08245 /* ImageCell.m */; };
+		3A7E377F1871210000D08245 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7E377E1871210000D08245 /* CoreImage.framework */; };
+		3A7E3785187123E400D08245 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E3784187123E400D08245 /* ImageUtil.m */; };
+		3A7E37891871243400D08245 /* CustomeCellBackGround.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E37881871243400D08245 /* CustomeCellBackGround.m */; };
+		3A7E378B1871294F00D08245 /* imagePicker_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E378A1871294F00D08245 /* imagePicker_button.jpg */; };
+		3A7E378D187129F400D08245 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E378C187129F400D08245 /* dog.jpg */; };
+		3A9CE56F18681CDD007232F8 /* HMEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE56E18681CDD007232F8 /* HMEditView.m */; };
+		3A9CE5731868206A007232F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9CE5721868206A007232F8 /* MessageUI.framework */; };
+		3A9CE5761868208A007232F8 /* HMMailComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE5751868208A007232F8 /* HMMailComposeViewController.m */; };
+		3A9CE579186BDF73007232F8 /* HMEmailComposerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE578186BDF73007232F8 /* HMEmailComposerView.m */; };
+		3A9CE57F186EB7DF007232F8 /* MOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE57C186EB7DF007232F8 /* MOButton.m */; };
+		3A9CE580186EB7DF007232F8 /* MOGlassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE57E186EB7DF007232F8 /* MOGlassButton.m */; };
+		3AAD10901877F44600CF87AD /* HMSubTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD108F1877F44500CF87AD /* HMSubTitleView.m */; };
+		3AAD1093187A466300CF87AD /* HMImageFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD1092187A466300CF87AD /* HMImageFilterView.m */; };
+		3AAD1096187D3BE600CF87AD /* MQInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD1095187D3BE600CF87AD /* MQInteractionViewController.m */; };
 		CD4A6FE11866E2D0001E748F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4A6FE01866E2D0001E748F /* Foundation.framework */; };
 		CD4A6FE31866E2D0001E748F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4A6FE21866E2D0001E748F /* CoreGraphics.framework */; };
 		CD4A6FE51866E2D0001E748F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4A6FE41866E2D0001E748F /* UIKit.framework */; };
@@ -34,7 +66,6 @@
 		CD4A703C1866FE93001E748F /* HMMainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4A703B1866FE93001E748F /* HMMainMenuView.m */; };
 		CD4A70401866FF70001E748F /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4A703F1866FF70001E748F /* UIView+position.m */; };
 		CD4A704218670026001E748F /* main_menu_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4A704118670026001E748F /* main_menu_background.png */; };
-		CD4A70451867F646001E748F /* HMActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4A70441867F646001E748F /* HMActionButton.m */; };
 		CD4A70481867F6C8001E748F /* HMMainMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4A70471867F6C8001E748F /* HMMainMenuButton.m */; };
 		CD4A704B1867F727001E748F /* UIButton+HMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4A704A1867F727001E748F /* UIButton+HMAdditions.m */; };
 		CD4A704E18680671001E748F /* HMTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4A704D18680671001E748F /* HMTheme.m */; };
@@ -51,6 +82,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A7E3743186F614700D08245 /* bar_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_select.png; sourceTree = "<group>"; };
+		3A7E3744186F614700D08245 /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colormap.png; sourceTree = "<group>"; };
+		3A7E3745186F614700D08245 /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair.png; sourceTree = "<group>"; };
+		3A7E3746186F614700D08245 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3A7E3747186F614700D08245 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3A7E374E186F61E000D08245 /* ColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerView.h; sourceTree = "<group>"; };
+		3A7E374F186F61E000D08245 /* ColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerView.m; sourceTree = "<group>"; };
+		3A7E3750186F61E000D08245 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		3A7E3751186F61E000D08245 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		3A7E3752186F61E000D08245 /* ColorSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSwatchView.h; sourceTree = "<group>"; };
+		3A7E3753186F61E000D08245 /* ColorSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSwatchView.m; sourceTree = "<group>"; };
+		3A7E3754186F61E000D08245 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3A7E3755186F61E000D08245 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		3A7E3756186F61E000D08245 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		3A7E3757186F61E000D08245 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		3A7E3758186F61E000D08245 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		3A7E3759186F61E000D08245 /* UIColor-HSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-HSVAdditions.h"; sourceTree = "<group>"; };
+		3A7E375A186F61E000D08245 /* UIColor-HSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-HSVAdditions.m"; sourceTree = "<group>"; };
+		3A7E3761186F632C00D08245 /* ColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPickerViewController.xib; sourceTree = "<group>"; };
+		3A7E376E18710E6A00D08245 /* painter_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = painter_button.jpg; path = Resources/painter_button.jpg; sourceTree = "<group>"; };
+		3A7E377018710E7600D08245 /* send_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = send_button.jpg; path = Resources/send_button.jpg; sourceTree = "<group>"; };
+		3A7E377218711FDE00D08245 /* HMImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImagePickerViewController.h; sourceTree = "<group>"; };
+		3A7E377318711FDE00D08245 /* HMImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImagePickerViewController.m; sourceTree = "<group>"; };
+		3A7E37751871209900D08245 /* MQCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQCollectionViewController.h; sourceTree = "<group>"; };
+		3A7E37761871209900D08245 /* MQCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQCollectionViewController.m; sourceTree = "<group>"; };
+		3A7E37771871209900D08245 /* MQImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQImageCollectionView.h; sourceTree = "<group>"; };
+		3A7E37781871209900D08245 /* MQImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQImageCollectionView.m; sourceTree = "<group>"; };
+		3A7E37791871209900D08245 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		3A7E377A1871209900D08245 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		3A7E377E1871210000D08245 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3A7E3783187123E400D08245 /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageUtil.h; path = "../../../Public/Xcode Project/ImageTest/ImageUtil.h"; sourceTree = "<group>"; };
+		3A7E3784187123E400D08245 /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageUtil.m; path = "../../../Public/Xcode Project/ImageTest/ImageUtil.m"; sourceTree = "<group>"; };
+		3A7E37871871243400D08245 /* CustomeCellBackGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomeCellBackGround.h; path = "../../../Public/Xcode Project/ImageTest/CustomeCellBackGround.h"; sourceTree = "<group>"; };
+		3A7E37881871243400D08245 /* CustomeCellBackGround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomeCellBackGround.m; path = "../../../Public/Xcode Project/ImageTest/CustomeCellBackGround.m"; sourceTree = "<group>"; };
+		3A7E378A1871294F00D08245 /* imagePicker_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imagePicker_button.jpg; path = Resources/imagePicker_button.jpg; sourceTree = "<group>"; };
+		3A7E378C187129F400D08245 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = Resources/dog.jpg; sourceTree = "<group>"; };
+		3A9CE56D18681CDD007232F8 /* HMEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEditView.h; sourceTree = "<group>"; };
+		3A9CE56E18681CDD007232F8 /* HMEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMEditView.m; sourceTree = "<group>"; };
+		3A9CE5721868206A007232F8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3A9CE5741868208A007232F8 /* HMMailComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMailComposeViewController.h; sourceTree = "<group>"; };
+		3A9CE5751868208A007232F8 /* HMMailComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMailComposeViewController.m; sourceTree = "<group>"; };
+		3A9CE577186BDF73007232F8 /* HMEmailComposerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEmailComposerView.h; sourceTree = "<group>"; };
+		3A9CE578186BDF73007232F8 /* HMEmailComposerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMEmailComposerView.m; sourceTree = "<group>"; };
+		3A9CE57B186EB7DF007232F8 /* MOButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOButton.h; sourceTree = "<group>"; };
+		3A9CE57C186EB7DF007232F8 /* MOButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOButton.m; sourceTree = "<group>"; };
+		3A9CE57D186EB7DF007232F8 /* MOGlassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGlassButton.h; sourceTree = "<group>"; };
+		3A9CE57E186EB7DF007232F8 /* MOGlassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOGlassButton.m; sourceTree = "<group>"; };
+		3AAD108E1877F44500CF87AD /* HMSubTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSubTitleView.h; sourceTree = "<group>"; };
+		3AAD108F1877F44500CF87AD /* HMSubTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSubTitleView.m; sourceTree = "<group>"; };
+		3AAD1091187A466300CF87AD /* HMImageFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageFilterView.h; sourceTree = "<group>"; };
+		3AAD1092187A466300CF87AD /* HMImageFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageFilterView.m; sourceTree = "<group>"; };
+		3AAD1094187D3BE600CF87AD /* MQInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQInteractionViewController.h; sourceTree = "<group>"; };
+		3AAD1095187D3BE600CF87AD /* MQInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQInteractionViewController.m; sourceTree = "<group>"; };
 		CD4A6FDD1866E2D0001E748F /* FutureMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutureMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4A6FE01866E2D0001E748F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD4A6FE21866E2D0001E748F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,8 +176,6 @@
 		CD4A703E1866FF70001E748F /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+position.h"; path = "Vendor/UIView-Position/UIView+position.h"; sourceTree = "<group>"; };
 		CD4A703F1866FF70001E748F /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+position.m"; path = "Vendor/UIView-Position/UIView+position.m"; sourceTree = "<group>"; };
 		CD4A704118670026001E748F /* main_menu_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main_menu_background.png; path = Resources/main_menu_background.png; sourceTree = "<group>"; };
-		CD4A70431867F646001E748F /* HMActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMActionButton.h; path = Classes/Views/HMActionButton.h; sourceTree = "<group>"; };
-		CD4A70441867F646001E748F /* HMActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMActionButton.m; path = Classes/Views/HMActionButton.m; sourceTree = "<group>"; };
 		CD4A70461867F6C8001E748F /* HMMainMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMMainMenuButton.h; path = Classes/Views/HMMainMenuButton.h; sourceTree = "<group>"; };
 		CD4A70471867F6C8001E748F /* HMMainMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMMainMenuButton.m; path = Classes/Views/HMMainMenuButton.m; sourceTree = "<group>"; };
 		CD4A70491867F727001E748F /* UIButton+HMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+HMAdditions.h"; path = "Classes/Categories/UIButton+HMAdditions.h"; sourceTree = "<group>"; };
@@ -107,6 +189,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7E377F1871210000D08245 /* CoreImage.framework in Frameworks */,
+				3A9CE5731868206A007232F8 /* MessageUI.framework in Frameworks */,
 				CD4A6FE31866E2D0001E748F /* CoreGraphics.framework in Frameworks */,
 				CD4A6FE71866E2D0001E748F /* CoreData.framework in Frameworks */,
 				CD4A6FE51866E2D0001E748F /* UIKit.framework in Frameworks */,
@@ -128,6 +212,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A7E3742186F614700D08245 /* UI Parts */ = {
+			isa = PBXGroup;
+			children = (
+				3A7E3743186F614700D08245 /* bar_select.png */,
+				3A7E3744186F614700D08245 /* colormap.png */,
+				3A7E3745186F614700D08245 /* crosshair.png */,
+				3A7E3746186F614700D08245 /* Default.png */,
+				3A7E3747186F614700D08245 /* Icon.png */,
+			);
+			path = "UI Parts";
+			sourceTree = "<group>";
+		};
+		3A7E374D186F618900D08245 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3A7E374E186F61E000D08245 /* ColorPickerView.h */,
+				3A7E374F186F61E000D08245 /* ColorPickerView.m */,
+				3A7E3750186F61E000D08245 /* ColorPickerViewController.h */,
+				3A7E3751186F61E000D08245 /* ColorPickerViewController.m */,
+				3A7E3752186F61E000D08245 /* ColorSwatchView.h */,
+				3A7E3753186F61E000D08245 /* ColorSwatchView.m */,
+				3A7E3754186F61E000D08245 /* Constants.h */,
+				3A7E3755186F61E000D08245 /* GradientView.h */,
+				3A7E3756186F61E000D08245 /* GradientView.m */,
+				3A7E3757186F61E000D08245 /* UIColor-Expanded.h */,
+				3A7E3758186F61E000D08245 /* UIColor-Expanded.m */,
+				3A7E3759186F61E000D08245 /* UIColor-HSVAdditions.h */,
+				3A7E375A186F61E000D08245 /* UIColor-HSVAdditions.m */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		3A7E3786187123E700D08245 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3A7E3783187123E400D08245 /* ImageUtil.h */,
+				3A7E3784187123E400D08245 /* ImageUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		3A9CE57A186EB7C4007232F8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3A7E374D186F618900D08245 /* ColorPicker */,
+				3A9CE581186ECBA3007232F8 /* GlassyButton */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		3A9CE581186ECBA3007232F8 /* GlassyButton */ = {
+			isa = PBXGroup;
+			children = (
+				3A9CE57B186EB7DF007232F8 /* MOButton.h */,
+				3A9CE57C186EB7DF007232F8 /* MOButton.m */,
+				3A9CE57D186EB7DF007232F8 /* MOGlassButton.h */,
+				3A9CE57E186EB7DF007232F8 /* MOGlassButton.m */,
+			);
+			name = GlassyButton;
+			sourceTree = "<group>";
+		};
 		CD4A6FD41866E2D0001E748F = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +295,8 @@
 		CD4A6FDF1866E2D0001E748F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A7E377E1871210000D08245 /* CoreImage.framework */,
+				3A9CE5721868206A007232F8 /* MessageUI.framework */,
 				CD4A6FE01866E2D0001E748F /* Foundation.framework */,
 				CD4A6FE21866E2D0001E748F /* CoreGraphics.framework */,
 				CD4A6FE41866E2D0001E748F /* UIKit.framework */,
@@ -162,6 +309,8 @@
 		CD4A6FE81866E2D0001E748F /* FutureMail */ = {
 			isa = PBXGroup;
 			children = (
+				3A7E3786187123E700D08245 /* Util */,
+				3A7E3742186F614700D08245 /* UI Parts */,
 				CD4A70171866E32C001E748F /* Classes */,
 				CD4A701A1866E366001E748F /* Resources */,
 				CD4A6FE91866E2D0001E748F /* Supporting Files */,
@@ -173,6 +322,7 @@
 		CD4A6FE91866E2D0001E748F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A7E3761186F632C00D08245 /* ColorPickerViewController.xib */,
 				CD4A6FF41866E2D0001E748F /* FutureMail.xcdatamodeld */,
 				CD4A6FF71866E2D0001E748F /* Images.xcassets */,
 				CD4A6FEA1866E2D0001E748F /* FutureMail-Info.plist */,
@@ -228,6 +378,7 @@
 		CD4A70171866E32C001E748F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3A9CE57A186EB7C4007232F8 /* Components */,
 				CD4A70161866E306001E748F /* Categories */,
 				CD4A70191866E341001E748F /* Controllers */,
 				CD4A70301866EC8C001E748F /* HMAppDataStore.h */,
@@ -250,12 +401,24 @@
 		CD4A70181866E339001E748F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3A7E37871871243400D08245 /* CustomeCellBackGround.h */,
+				3A7E37881871243400D08245 /* CustomeCellBackGround.m */,
+				3A7E37791871209900D08245 /* ImageCell.h */,
+				3A7E377A1871209900D08245 /* ImageCell.m */,
+				3A7E37771871209900D08245 /* MQImageCollectionView.h */,
+				3A7E37781871209900D08245 /* MQImageCollectionView.m */,
 				CD4A703A1866FE93001E748F /* HMMainMenuView.h */,
 				CD4A703B1866FE93001E748F /* HMMainMenuView.m */,
-				CD4A70431867F646001E748F /* HMActionButton.h */,
-				CD4A70441867F646001E748F /* HMActionButton.m */,
 				CD4A70461867F6C8001E748F /* HMMainMenuButton.h */,
 				CD4A70471867F6C8001E748F /* HMMainMenuButton.m */,
+				3A9CE56D18681CDD007232F8 /* HMEditView.h */,
+				3A9CE56E18681CDD007232F8 /* HMEditView.m */,
+				3A9CE577186BDF73007232F8 /* HMEmailComposerView.h */,
+				3A9CE578186BDF73007232F8 /* HMEmailComposerView.m */,
+				3AAD108E1877F44500CF87AD /* HMSubTitleView.h */,
+				3AAD108F1877F44500CF87AD /* HMSubTitleView.m */,
+				3AAD1091187A466300CF87AD /* HMImageFilterView.h */,
+				3AAD1092187A466300CF87AD /* HMImageFilterView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -263,10 +426,18 @@
 		CD4A70191866E341001E748F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3AAD1094187D3BE600CF87AD /* MQInteractionViewController.h */,
+				3AAD1095187D3BE600CF87AD /* MQInteractionViewController.m */,
+				3A7E37751871209900D08245 /* MQCollectionViewController.h */,
+				3A7E37761871209900D08245 /* MQCollectionViewController.m */,
 				CD4A702A1866E767001E748F /* HMViewController.h */,
 				CD4A702B1866E767001E748F /* HMViewController.m */,
 				CD4A70331866EE88001E748F /* HMMainMenuViewController.h */,
 				CD4A70341866EE88001E748F /* HMMainMenuViewController.m */,
+				3A9CE5741868208A007232F8 /* HMMailComposeViewController.h */,
+				3A9CE5751868208A007232F8 /* HMMailComposeViewController.m */,
+				3A7E377218711FDE00D08245 /* HMImagePickerViewController.h */,
+				3A7E377318711FDE00D08245 /* HMImagePickerViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -282,6 +453,10 @@
 		CD4A701B1866E37A001E748F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3A7E378C187129F400D08245 /* dog.jpg */,
+				3A7E378A1871294F00D08245 /* imagePicker_button.jpg */,
+				3A7E377018710E7600D08245 /* send_button.jpg */,
+				3A7E376E18710E6A00D08245 /* painter_button.jpg */,
 				CD4A704118670026001E748F /* main_menu_background.png */,
 			);
 			name = Images;
@@ -370,6 +545,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CD4A6FD41866E2D0001E748F;
 			productRefGroup = CD4A6FDE1866E2D0001E748F /* Products */;
@@ -387,8 +563,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7E3749186F614700D08245 /* colormap.png in Resources */,
 				CD4A6FED1866E2D0001E748F /* InfoPlist.strings in Resources */,
+				3A7E3748186F614700D08245 /* bar_select.png in Resources */,
+				3A7E378D187129F400D08245 /* dog.jpg in Resources */,
 				CD4A704218670026001E748F /* main_menu_background.png in Resources */,
+				3A7E374C186F614700D08245 /* Icon.png in Resources */,
+				3A7E376F18710E6A00D08245 /* painter_button.jpg in Resources */,
+				3A7E374B186F614700D08245 /* Default.png in Resources */,
+				3A7E3762186F632C00D08245 /* ColorPickerViewController.xib in Resources */,
+				3A7E377118710E7600D08245 /* send_button.jpg in Resources */,
+				3A7E378B1871294F00D08245 /* imagePicker_button.jpg in Resources */,
+				3A7E374A186F614700D08245 /* crosshair.png in Resources */,
 				CD4A6FF81866E2D0001E748F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,22 +595,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4A70351866EE88001E748F /* HMMainMenuViewController.m in Sources */,
-				CD4A70451867F646001E748F /* HMActionButton.m in Sources */,
+				3A9CE5761868208A007232F8 /* HMMailComposeViewController.m in Sources */,
+				3A9CE56F18681CDD007232F8 /* HMEditView.m in Sources */,
 				CD4A704B1867F727001E748F /* UIButton+HMAdditions.m in Sources */,
 				CD4A70291866E6B0001E748F /* UIColor+HMColor.m in Sources */,
 				CD4A702C1866E767001E748F /* HMViewController.m in Sources */,
 				CD4A70261866E5DF001E748F /* HMUtils.m in Sources */,
+				3A7E375F186F61E000D08245 /* UIColor-Expanded.m in Sources */,
+				3A7E377B1871209900D08245 /* MQCollectionViewController.m in Sources */,
+				3A7E377D1871209900D08245 /* ImageCell.m in Sources */,
+				3A9CE580186EB7DF007232F8 /* MOGlassButton.m in Sources */,
+				3A7E377C1871209900D08245 /* MQImageCollectionView.m in Sources */,
 				CD4A704E18680671001E748F /* HMTheme.m in Sources */,
+				3A7E375E186F61E000D08245 /* GradientView.m in Sources */,
+				3A9CE579186BDF73007232F8 /* HMEmailComposerView.m in Sources */,
+				3A7E3785187123E400D08245 /* ImageUtil.m in Sources */,
+				3A7E3760186F61E000D08245 /* UIColor-HSVAdditions.m in Sources */,
 				CD4A703C1866FE93001E748F /* HMMainMenuView.m in Sources */,
 				CD4A6FEF1866E2D0001E748F /* main.m in Sources */,
+				3AAD10901877F44600CF87AD /* HMSubTitleView.m in Sources */,
 				CD4A70321866EC8C001E748F /* HMAppDataStore.m in Sources */,
+				3A9CE57F186EB7DF007232F8 /* MOButton.m in Sources */,
 				CD4A70481867F6C8001E748F /* HMMainMenuButton.m in Sources */,
 				CD4A702F1866E89A001E748F /* HMEnvironment.m in Sources */,
+				3AAD1096187D3BE600CF87AD /* MQInteractionViewController.m in Sources */,
 				CD4A70231866E51C001E748F /* UIImage+HMAdditions.m in Sources */,
 				CD4A70391866F696001E748F /* UINavigationController+HMAdditions.m in Sources */,
 				CD4A6FF61866E2D0001E748F /* FutureMail.xcdatamodeld in Sources */,
+				3A7E37891871243400D08245 /* CustomeCellBackGround.m in Sources */,
+				3A7E375B186F61E000D08245 /* ColorPickerView.m in Sources */,
+				3A7E375C186F61E000D08245 /* ColorPickerViewController.m in Sources */,
+				3AAD1093187A466300CF87AD /* HMImageFilterView.m in Sources */,
 				CD4A70401866FF70001E748F /* UIView+position.m in Sources */,
 				CD4A70201866E493001E748F /* UIFont+HMFont.m in Sources */,
+				3A7E377418711FDE00D08245 /* HMImagePickerViewController.m in Sources */,
+				3A7E375D186F61E000D08245 /* ColorSwatchView.m in Sources */,
 				CD4A6FF31866E2D0001E748F /* HMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,10 +749,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ZZ/GitRepository/FutureMail/FutureMail/Downloads/aws-ios-sdk-1.7.0",
+					"/Users/ZZ/GitRepository/FutureMail/FutureMail/Downloads/aws-ios-sdk-1.7.0/ThirdParty",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FutureMail/FutureMail-Prefix.pch";
 				INFOPLIST_FILE = "FutureMail/FutureMail-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ZZ/GitRepository/FutureMail/FutureMail/Downloads/aws-ios-sdk-1.7.0/ThirdParty/Amazon",
+					/Users/ZZ/GitRepository/FutureMail/FutureMail/Downloads/DiabloMiner/target/libs/natives,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -557,10 +774,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ZZ/GitRepository/FutureMail/FutureMail/Downloads/aws-ios-sdk-1.7.0",
+					"/Users/ZZ/GitRepository/FutureMail/FutureMail/Downloads/aws-ios-sdk-1.7.0/ThirdParty",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FutureMail/FutureMail-Prefix.pch";
 				INFOPLIST_FILE = "FutureMail/FutureMail-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ZZ/GitRepository/FutureMail/FutureMail/Downloads/aws-ios-sdk-1.7.0/ThirdParty/Amazon",
+					/Users/ZZ/GitRepository/FutureMail/FutureMail/Downloads/DiabloMiner/target/libs/natives,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -626,6 +855,7 @@
 				CD4A70111866E2D0001E748F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD4A70121866E2D0001E748F /* Build configuration list for PBXNativeTarget "FutureMailTests" */ = {
 			isa = XCConfigurationList;
@@ -634,6 +864,7 @@
 				CD4A70141866E2D0001E748F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

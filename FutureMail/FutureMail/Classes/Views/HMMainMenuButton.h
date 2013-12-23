@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Hao Liu. All rights reserved.
 //
 
-#import "HMActionButton.h"
+#import "MOGlassButton.h"
 
-@interface HMMainMenuButton : HMActionButton
+@interface HMMainMenuButton : MOGlassButton
 
 @property (strong, nonatomic) NSString *title;
 
